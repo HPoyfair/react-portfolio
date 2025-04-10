@@ -22,6 +22,25 @@ const projects = [
     deployedLink: 'https://poyfairwedding.com/',
     gitHubLink: 'https://github.com/HPoyfair/weddingWebsite',
   },
+  {
+    title: 'Candidate finder',
+    image: '/public/images/candidate.png',
+    deployedLink: 'https://candidate-finder-iizo.onrender.com',
+    gitHubLink: 'https://github.com/HPoyfair/candidate-finder',
+  },
+ 
+  {
+    title: 'Book Search',
+    image: '/public/images/book.png',
+    deployedLink: 'https://book-search-gu7q.onrender.com',
+    gitHubLink: 'https://github.com/HPoyfair/candidate-finder',
+  },
+  {
+    title: 'kanban board',
+    image: '/public/images/kan.png',
+    deployedLink: 'https://kanban-board-jwt-auth.onrender.com',
+    gitHubLink: 'https://github.com/HPoyfair/kanban-board-jwt-auth',
+  },
 ]
 
 const Portfolio = () => {

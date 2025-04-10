@@ -1,54 +1,62 @@
-# React + TypeScript + Vite
+# 📌 Project Title
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React Portfolio – Hayden Poyfair
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 Description
 
-## Expanding the ESLint configuration
+A professional portfolio website built with React and TypeScript that showcases my development projects, provides contact information, and highlights my resume and technical skills.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠 Installation
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone the repository  
+   `git clone https://github.com/haydenpoyfair/react-protfolio.git`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2. Navigate to the project folder  
+   `cd react-protfolio`
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+3. Install dependencies  
+   `npm install`
+
+4. Start the development server  
+   `npm run dev`
+
+---
+
+## 🚀 Usage
+
+Once running, you can view the portfolio locally at `http://localhost:5173`.  
+Use the navigation bar to explore About Me, Portfolio Projects, Contact Form, and Resume download.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🤝 Contributing
+
+If you'd like to contribute to improving this portfolio or submit a bug fix, feel free to fork the repo and open a pull request.
+
+---
+
+## 🧪 Tests
+
+There are currently no automated tests for this portfolio. You can manually test routing, form validation, and responsiveness using your browser.
+
+---
+
+## 🔗 Questions?
+
+Feel free to reach out!
+
+- **GitHub**: [haydenpoyfair](https://github.com/haydenpoyfair)  
+
+
+---
+
