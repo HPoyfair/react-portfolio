@@ -5,39 +5,37 @@ import Project from '../components/Project'
 const projects = [
   {
     title: 'Weather Dashboard',
-    image: '/public/images/weather.png', // make sure these exist in /public/images/
+    image: '/images/weather.png',
     deployedLink: 'https://weather-app-c2do.onrender.com',
     gitHubLink: 'https://github.com/HPoyfair/Weather-App',
   },
   {
-    title: 'Recipe Orginizer',
-    image: '/public/images/food.png',
+    title: 'Recipe Organizer',
+    image: '/images/food.png',
     deployedLink: 'https://hpoyfair.github.io/Recipe-Organizer/',
     gitHubLink: 'https://github.com/HPoyfair/Recipe-Organizer',
   },
-  
   {
     title: 'Wedding Website',
-    image: '/public/images/wedding.png',
+    image: '/images/wedding.png',
     deployedLink: 'https://poyfairwedding.com/',
     gitHubLink: 'https://github.com/HPoyfair/weddingWebsite',
   },
   {
-    title: 'Candidate finder',
-    image: '/public/images/candidate.png',
+    title: 'Candidate Finder',
+    image: '/images/candidate.png',
     deployedLink: 'https://candidate-finder-iizo.onrender.com',
     gitHubLink: 'https://github.com/HPoyfair/candidate-finder',
   },
- 
   {
     title: 'Book Search',
-    image: '/public/images/book.png',
+    image: '/images/book.png',
     deployedLink: 'https://book-search-gu7q.onrender.com',
-    gitHubLink: 'https://github.com/HPoyfair/candidate-finder',
+    gitHubLink: 'https://github.com/HPoyfair/candidate-finder', // you might want to double check this
   },
   {
-    title: 'kanban board',
-    image: '/public/images/kan.png',
+    title: 'Kanban Board',
+    image: '/images/kan.png',
     deployedLink: 'https://kanban-board-jwt-auth.onrender.com',
     gitHubLink: 'https://github.com/HPoyfair/kanban-board-jwt-auth',
   },
